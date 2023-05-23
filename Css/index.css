@@ -1,16 +1,32 @@
 *
 {
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 body
 {
-    position: absolute;
-    top: 100px;
+    margin: 0 auto;
+    background-color: #fff;
 }
 a
 {
     all:unset;
     cursor: pointer;
+}
+a:hover
+{
+    color: rgb(131, 148, 239);
+}
+hr
+{
+    width: 100%;
+}
+.inner
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 rem;
 }
 
 header
@@ -57,7 +73,7 @@ header
 .head-menu
 {
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 10px;
 }
 .menu-list
@@ -96,6 +112,51 @@ header
     font-size: 22px;
 }
 .explanation
+{
+    font-size: 16px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-brand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.footer-title
+{
+    width: 100%;
+    top: 0;
+}
+.member-list
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.member-card
+{
+    margin: 0 1.2rem;
+}
+/*.member-image
+{
+
+}*/
+.member-name
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+.member-role
 {
     font-size: 16px;
 }
